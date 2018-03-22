@@ -27,20 +27,16 @@ class MoltinManager : NSObject
         return instanceVar
     }
     
-    func getProducts() -> [AnyObject]
+    func getProducts() -> [AnyObject]?
     {
-        //Make a call to retrieve the store products
-        Moltin.sharedInstance().product.listing(withParameters: nil, success: { (responseDictionary) in
-            
-            self.products = responseDictionary?["result"] as! [AnyObject]
-            print("Objects: \(self.products)")
-            
-            
-        }) { (responseDictionary, error) in
-            print("Something went wrong")
-        }
-    
-        return products
+        Moltin.sharedInstance().product.listing(withParameters: nil, success: { (response) -> Void in
+                self.products = response?["result"] as! [AnyObject]
+                print("Objects: \(self.products)")
+                
+            }, failure: { (error) -> Void in
+                           print("Something went wrong")
+                })
+        return self.products
     }
-    
+
 }

@@ -16,11 +16,9 @@
 		98DC501820634CC200183ED5 /* ProductModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98DC501720634CC200183ED5 /* ProductModal.xib */; };
 		98DC501A20634CEA00183ED5 /* ProductModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC501920634CEA00183ED5 /* ProductModalViewController.swift */; };
 		C00360541E39747F00234FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00360531E39747F00234FCD /* LaunchScreen.storyboard */; };
-		C00360911E3EA86500234FCD /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C003608A1E3EA86500234FCD /* Icons.swift */; };
 		C00360921E3EA86500234FCD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C003608B1E3EA86500234FCD /* Item.swift */; };
 		C00360931E3EA86500234FCD /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C003608D1E3EA86500234FCD /* ItemCell.swift */; };
 		C00360951E3EA86500234FCD /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00360901E3EA86500234FCD /* ItemsViewController.swift */; };
-		C00360971E3EA88F00234FCD /* IconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00360961E3EA88F00234FCD /* IconCell.swift */; };
 		FB9CC95C1AD701910038DF33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9CC95B1AD701910038DF33 /* AppDelegate.swift */; };
 		FB9CC9631AD701910038DF33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9CC9621AD701910038DF33 /* Images.xcassets */; };
 		FB9CC98A1AD702CC0038DF33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9CC9891AD702CC0038DF33 /* Main.storyboard */; };
@@ -39,11 +37,9 @@
 		98DC501720634CC200183ED5 /* ProductModal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductModal.xib; sourceTree = "<group>"; };
 		98DC501920634CEA00183ED5 /* ProductModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModalViewController.swift; sourceTree = "<group>"; };
 		C00360531E39747F00234FCD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C003608A1E3EA86500234FCD /* Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		C003608B1E3EA86500234FCD /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		C003608D1E3EA86500234FCD /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		C00360901E3EA86500234FCD /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
-		C00360961E3EA88F00234FCD /* IconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCell.swift; sourceTree = "<group>"; };
 		FB9CC9561AD701910038DF33 /* BeaconFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9CC95A1AD701910038DF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB9CC95B1AD701910038DF33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				987B08EE20119BA0001F242B /* BeaconScannerManager.swift */,
-				C003608A1E3EA86500234FCD /* Icons.swift */,
 				C003608B1E3EA86500234FCD /* Item.swift */,
 				9864461E2046178A002A3687 /* BleItem.swift */,
 				98644620204F05CB002A3687 /* Constants.swift */,
@@ -104,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				C003608D1E3EA86500234FCD /* ItemCell.swift */,
-				C00360961E3EA88F00234FCD /* IconCell.swift */,
 			);
 			path = "Custom Cells";
 			sourceTree = "<group>";
@@ -301,13 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				98DC501A20634CEA00183ED5 /* ProductModalViewController.swift in Sources */,
-				C00360971E3EA88F00234FCD /* IconCell.swift in Sources */,
 				9803AF4120634074006FB102 /* PassiveScanManager.swift in Sources */,
 				987B08EF20119BA0001F242B /* BeaconScannerManager.swift in Sources */,
 				C00360951E3EA86500234FCD /* ItemsViewController.swift in Sources */,
 				C00360931E3EA86500234FCD /* ItemCell.swift in Sources */,
 				98644621204F05CB002A3687 /* Constants.swift in Sources */,
-				C00360911E3EA86500234FCD /* Icons.swift in Sources */,
 				9803AF7D206347C6006FB102 /* MoltinManager.swift in Sources */,
 				C00360921E3EA86500234FCD /* Item.swift in Sources */,
 				9864461F2046178A002A3687 /* BleItem.swift in Sources */,

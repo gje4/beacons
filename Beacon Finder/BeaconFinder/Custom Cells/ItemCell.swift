@@ -17,7 +17,6 @@ class ItemCell: UITableViewCell {
   var item: Item? = nil {
     didSet {
       if let item = item {
-        imgIcon.image = Icons(rawValue: item.icon)?.image()
         lblName.text = item.name
         lblLocation.text = item.locationString()
         
